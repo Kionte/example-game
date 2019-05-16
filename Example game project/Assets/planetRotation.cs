@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class planetRotation : MonoBehaviour {
 
-    public GameObject planet;// = new GameObject();
-    public float num = 0;
+    public float planet = 0F;
 	// Use this for initialization
 	void Start () {
         Debug.Log("whats up");
@@ -13,6 +12,6 @@ public class planetRotation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        planet.transform.Rotate(0, 180*Time.deltaTime, 0, Space.Self);
+       this.transform.Rotate(0, planet*Time.deltaTime, 0, Space.Self);
    }
 }

@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 3841171}
   - component: {fileID: 3841170}
   - component: {fileID: 3841169}
+  - component: {fileID: 3841173}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -199,6 +200,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3841173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3841168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864892673e91a264da075d06912236f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: 0.1
 --- !u!1 &31042660
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,7 +792,7 @@ GameObject:
   - component: {fileID: 1380243058}
   - component: {fileID: 1380243057}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,7 +874,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1594487037}
   - component: {fileID: 1594487038}
-  - component: {fileID: 1594487039}
   m_Layer: 0
   m_Name: Hello Object
   m_TagString: Untagged
@@ -893,19 +905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96389450f251fbc4e9d49ea1af1fe5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1594487039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1594487036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 864892673e91a264da075d06912236f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planet: {fileID: 3841168}
-  num: 3
 --- !u!1 &1708928079
 GameObject:
   m_ObjectHideFlags: 0
